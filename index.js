@@ -9,7 +9,7 @@ let listItems = " ";
 
 inputBtn.addEventListener("click", function () {
     myLeads.push(inputEl.value);
-    console.log(myLeads);
+    inputEl.value = '';
     renderLeads() 
 })
 
